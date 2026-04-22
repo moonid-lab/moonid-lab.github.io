@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "ko-KR"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "MOONID LAB"
+title                    : "MOONID LAB (AI 융합보안 연구실)"
 title_separator          : "-"
 name                     : &name "문 형 권"
-description              : &description "AI 보안 연구실 입니다."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "MOONID LAB - AI 융합보안 연구실 | 호서대학교"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://moonid-lab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,10 +27,11 @@ author:
   name             : "문형권 (Daniel Moon)"
   pronouns         : # example: "she/her"
   bio              : "조교수 @ 호서대학교 | AI Agent 보안 · LLMOps · Cloud SecOps 연구"
-  location         : "충청남도 아산, 대한민국"
+  location         : "호서대학교 아산캠퍼스 제2공대 410호"
   employer         : "호서대학교 (Hoseo University)"
   uri              : # URL
   email            : "sysmoon@hoseo.edu"
+  phone            : "041-540-5980"
 
   # Academic websites
   academia         : # URL
@@ -51,7 +52,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "sysmoon"
+  github           : "moonid-lab"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

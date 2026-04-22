@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[📄 이력서 PDF 다운로드](/files/Profile.pdf){: .btn .btn--info}
-
 ## 학력
 
 * 숭실대학교 일반대학원 — 석사, 네트워크 보안 (2005–2007)
@@ -84,21 +82,5 @@ redirect_from:
 ## 논문/저서
 
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
----
-
-## 발표
-
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
----
-
-## 강의
-
-  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
