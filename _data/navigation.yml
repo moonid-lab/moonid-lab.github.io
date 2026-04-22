@@ -18,3 +18,41 @@ main:
 
   - title: "CV"
     url: /cv/
+
+main_ko:
+  - title: "연구"
+    url: /publications/
+
+  - title: "프로젝트"
+    url: /projects/
+
+  - title: "발표"
+    url: /talks/
+
+  - title: "강의"
+    url: /teaching/
+
+  - title: "블로그"
+    url: /year-archive/
+
+  - title: "CV"
+    url: /cv/
+
+main_en:
+  - title: "Research"
+    url: /en/publications/
+
+  - title: "Projects"
+    url: /en/projects/
+
+  - title: "Talks"
+    url: /en/talks/
+
+  - title: "Teaching"
+    url: /en/teaching/
+
+  - title: "Blog"
+    url: /en/year-archive/
+
+  - title: "CV"
+    url: /en/cv/

@@ -1,4 +1,6 @@
 {% include base_path %}
+{% assign ui_locale = page.lang | default: site.locale %}
+{% assign current_lang = ui_locale | slice: 0,2 %}
 
 <!-- begin SEO -->
 {% if site.url %}
@@ -18,7 +20,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[ui_locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -46,6 +48,23 @@
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+{% endif %}
+
+{% if seo_url and page.translation_key %}
+  {% assign translations = site.pages | where: "translation_key", page.translation_key %}
+  {% assign x_default_url = '' %}
+  {% for t in translations %}
+    {% assign t_lang = t.lang | default: site.locale | slice: 0,2 %}
+    {% assign t_href = t.url | prepend: seo_url | replace: "/index.html", "/" %}
+    <link rel="alternate" hreflang="{{ t_lang }}" href="{{ t_href }}">
+    {% if t_lang == 'ko' %}
+      {% assign x_default_url = t_href %}
+    {% endif %}
+  {% endfor %}
+  {% if x_default_url == '' %}
+    {% assign x_default_url = page.url | prepend: seo_url | replace: "/index.html", "/" %}
+  {% endif %}
+  <link rel="alternate" hreflang="x-default" href="{{ x_default_url }}">
 {% endif %}
 
 {% if site.twitter.username %}
@@ -113,7 +132,13 @@
 <!-- end SEO -->
 
 <!-- Open Graph protocol data (https://ogp.me/), used by social media -->
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+{% if current_lang == 'ko' %}
+  <meta property="og:locale" content="ko_KR">
+{% elsif current_lang == 'en' %}
+  <meta property="og:locale" content="en_US">
+{% else %}
+  <meta property="og:locale" content="{{ site.locale | default: "en" | replace: '-', '_' }}">
+{% endif %}
 <meta property="og:site_name" content="{{ site.title }}"> 
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 {% if page.date %}

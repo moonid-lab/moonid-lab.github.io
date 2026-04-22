@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "MOONID LAB (AI 융합보안 연구실)"
+lang: ko
+translation_key: home
 author_profile: true
 redirect_from:
   - /about/

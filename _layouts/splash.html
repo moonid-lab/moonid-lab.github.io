@@ -3,6 +3,13 @@ layout: default
 ---
 
 {% include base_path %}
+{% assign ui_locale = page.lang | default: site.locale %}
+{% assign current_lang = ui_locale | slice: 0,2 %}
+{% if current_lang == 'ko' %}
+  {% assign date_format_long = "%Y년 %-m월 %-d일" %}
+{% else %}
+  {% assign date_format_long = "%B %d, %Y" %}
+{% endif %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -12,8 +19,8 @@ layout: default
   <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: date_format_long }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: date_format_long }}">{% endif %}
 
     <section class="page__content" itemprop="text">
       {{ content }}

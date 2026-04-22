@@ -1,4 +1,11 @@
 {% include base_path %}
+{% assign ui_locale = page.lang | default: site.locale %}
+{% assign current_lang = ui_locale | slice: 0,2 %}
+{% if current_lang == 'ko' %}
+  {% assign date_format_long = "%Y년 %-m월 %-d일" %}
+{% else %}
+  {% assign date_format_long = "%B %d, %Y" %}
+{% endif %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -33,7 +40,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: date_format_long }}</p>{% endif %}
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{post.type}} at {{ post.venue }},  {{post.location}}</p>{% endif %}
     </li>
   </article>

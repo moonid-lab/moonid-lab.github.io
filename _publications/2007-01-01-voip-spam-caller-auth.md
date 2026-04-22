@@ -1,6 +1,7 @@
 ---
 title: "VoIP 스팸 차단을 위한 Proxy 서버와 UAS 간의 발신자 인증 기법"
 collection: publications
+lang: ko
 category: conferences
 permalink: /publication/voip-spam-caller-authentication
 excerpt: 'VoIP 스팸 메시지 차단을 위해 SIP Proxy 서버와 UAS(User Agent Server) 간에 발신자 인증 기법을 제안한 연구입니다.'

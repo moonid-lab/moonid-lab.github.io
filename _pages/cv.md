@@ -2,6 +2,8 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+lang: ko
+translation_key: cv
 author_profile: true
 redirect_from:
   - /resume
@@ -81,6 +83,11 @@ redirect_from:
 
 ## 논문/저서
 
-  <ul>{% for post in site.publications reversed %}
+  {% assign current_lang = page.lang | default: site.locale | slice: 0,2 %}
+  {% assign lang_publications = site.publications | where: "lang", current_lang %}
+  {% if lang_publications.size == 0 %}
+    {% assign lang_publications = site.publications %}
+  {% endif %}
+  <ul>{% for post in lang_publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

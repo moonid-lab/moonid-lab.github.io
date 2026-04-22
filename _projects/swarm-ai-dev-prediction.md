@@ -2,6 +2,7 @@
 title: "Development Prediction Platform based-on Swarm AI Agent"
 excerpt: "Swarm AI Agent와 Agentic GraphRAG를 결합해 사건·이벤트의 미래 전개를 예측하고 개입 시나리오를 시뮬레이션하는 플랫폼"
 collection: projects
+lang: ko
 date: 2026-04-01
 ---
 
