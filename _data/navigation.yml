@@ -4,6 +4,12 @@ main:
   - title: "연구"
     url: /publications/
 
+  - title: "발표"
+    url: /talks/
+
+  - title: "강의"
+    url: /teaching/
+
   - title: "포트폴리오"
     url: /portfolio/
 
