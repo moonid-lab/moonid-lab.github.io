@@ -48,6 +48,25 @@ security across Pearl Abyss, SECUI, and the Financial Security Institute.
 
 ---
 
+## Major Project History
+
+| Period | Project | Role |
+|------|---------|------|
+| 2024–2025 | **Btv Agent** (SKB multimodal Agentic RAG chatbot) | LLMOps platform design and development |
+| 2024 | **TGO (Travel GO) Agent** (SK AI Summit 2024) | AI Agent development |
+| 2023 | **VPS (Visual Positioning System)** 3D Spatial DB platform | Design and development |
+| 2020–2022 | **Road Learner Service** (Seoul C-ITS hybrid cloud) | Architecture design and development |
+| 2019–2020 | **Tview** (CCTV public cloud migration, AWS/Azure) | Technical lead |
+| 2017–2018 | **Black Desert Mobile** Azure Cloud Transformation | DevOps |
+
+---
+
+## Tech Stack
+
+`AI Agent` `LLMOps` `GraphRAG` `MCP` `Kubernetes` `AWS` `Azure` `Python` `SIEM` `IPS/FW`
+
+---
+
 ## Contact
 
 If you are interested in graduate admission or research collaboration, feel free to reach out.
