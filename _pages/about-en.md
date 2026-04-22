@@ -27,9 +27,9 @@ Our lab focuses on **AI Agent Security**, **LLMOps**, and **Cloud Security/DevOp
 **Hyungkwon Moon (Daniel Moon)**  
 Assistant Professor at Hoseo University · AI/SecOps Researcher
 
-He worked for 7 years at SK Telecom building AI agent platforms, cloud infrastructure,
-and autonomous-driving big data platforms. He also has industry experience in DevOps and
-security across Pearl Abyss, SECUI, and the Financial Security Institute.
+With a background in network security, he has worked across multiple industries as a DevOps engineer
+and solution architect. He is currently researching and developing technologies for AI convergence
+security at Hoseo University.
 
 ### Career Highlights
 
