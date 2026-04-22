@@ -31,11 +31,20 @@ He worked for 7 years at SK Telecom building AI agent platforms, cloud infrastru
 and autonomous-driving big data platforms. He also has industry experience in DevOps and
 security across Pearl Abyss, SECUI, and the Financial Security Institute.
 
-- Email: [sysmoon@hoseo.edu](mailto:sysmoon@hoseo.edu)
-- Phone: 041-540-5980
-- Lab: Room 410, 2nd Engineering Building, Asan Campus, Hoseo University
-- GitHub: [github.com/moonid-lab](https://github.com/moonid-lab)
-- LinkedIn: [linkedin.com/in/sysmoon](https://www.linkedin.com/in/sysmoon/)
+### Career Highlights
+
+- **SK Telecom** (2018.09 ~ 2025.10) (7 years 2 months)
+	- Designed and built AI agent, LLMOps, cloud, and autonomous-driving data platforms including Multimodal AI Agent, AI Agent Platform, VPS, RLS/HD Map, and Tview
+- **PearlAbyss** (2017.03 ~ 2018.09) (1 year 7 months)
+	- DevOps Engineer for Black Desert Mobile Azure cloud transformation, CI/CD, and integrated monitoring systems
+- **SECUI** (2015.12 ~ 2017.03) (1 year 4 months)
+	- R&D Engineer in Security Intelligence, developing SIEM and EDR big data platforms
+- **AirPlug** (2011.06 ~ 2015.12) (4 years 7 months)
+	- Big Data Platform Engineer for mobile analytics platforms and map analytics tools
+- **Financial Security Institute (FSA)** (2010.03 ~ 2011.06) (1 year 4 months)
+	- Security R&D for financial application security testing and vulnerability inspection tools
+- **Mcubeworks** (Alternative Military Service) (2007.01 ~ 2010.03) (3 years 3 months)
+	- Developed and operated real-time streaming and RTSP-based VoD servers
 
 ---
 
@@ -45,4 +54,6 @@ If you are interested in graduate admission or research collaboration, feel free
 
 - Email: [sysmoon@hoseo.edu](mailto:sysmoon@hoseo.edu)
 - Phone: 041-540-5980
-- Address: Room 410, 2nd Engineering Building, Asan Campus, Hoseo University
+- Lab: Room 410, 2nd Engineering Building, Asan Campus, Hoseo University
+- GitHub: [github.com/moonid-lab](https://github.com/moonid-lab)
+- LinkedIn: [linkedin.com/in/sysmoon](https://www.linkedin.com/in/sysmoon/)
