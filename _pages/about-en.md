@@ -38,7 +38,7 @@ at Hoseo University.
 - **SECUI** (2015.12 ~ 2017.03) (1 year 4 months) · SIEM Architecture
 - **AirPlug** (2011.06 ~ 2015.12) (4 years 7 months) · Startup
 - **Financial Security Institute (FSA)** (2010.03 ~ 2011.06) (1 year 4 months) · Threat Intelligence Analyzer
-- **Mcubeworks** (Alternative Military Service) (2007.01 ~ 2010.03) (3 years 3 months)
+- **Mcubeworks** (2007.01 ~ 2010.03) (3 years 3 months) · RTS Server DevOps · Alternative Military Service
 
 ---
 

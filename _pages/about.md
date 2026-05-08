@@ -40,7 +40,7 @@ redirect_from:
 - **SECUI** (2015.12 ~ 2017.03) (1년 4개월) · SIEM Architecture
 - **AirPlug** (2011.06 ~ 2015.12) (4년 7개월) · Startup
 - **금융보안원 (FSA)** (2010.03 ~ 2011.06) (1년 4개월) · Threat Intelligence Analyzer
-- **Mcubeworks** (전문연구요원) (2007.01 ~ 2010.03) (3년 3개월)
+- **Mcubeworks** (2007.01 ~ 2010.03) (3년 3개월) · RTS Server DevOps · 전문연구요원
 
 ---
 
