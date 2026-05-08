@@ -37,9 +37,10 @@
   email: "jiwoo@example.com"
 
 - name: "주현민"
-  photo: ""
+  photo: "jhm.jpg"
   research:
-    - "Windows Internals & OS Build Analysis"
-    - "Kernel-mode Malware & Ransomware Analysis"
-    - "Low-Level Reverse Engineering & Forensics"
+    - "OS Internals"
+    - "Malware Analysis"
+    - "Reverse Engineering"
+    - "Forensics"
   email: "20260596@vision.hoseo.edu"
