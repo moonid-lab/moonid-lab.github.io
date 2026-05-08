@@ -33,18 +33,12 @@ at Hoseo University.
 
 ### Career Highlights
 
-- **SK Telecom** (2018.09 ~ 2025.10) (7 years 2 months)
-	- Designed and built AI agent, LLMOps, cloud, and autonomous-driving data platforms including Multimodal AI Agent, AI Agent Platform, VPS, RLS/HD Map, and Tview
-- **PearlAbyss** (2017.03 ~ 2018.09) (1 year 7 months)
-	- DevOps Engineer for Black Desert Mobile Azure cloud transformation, CI/CD, and integrated monitoring systems
-- **SECUI** (2015.12 ~ 2017.03) (1 year 4 months)
-	- R&D Engineer in Security Intelligence, developing SIEM and EDR big data platforms
-- **AirPlug** (2011.06 ~ 2015.12) (4 years 7 months)
-	- Big Data Platform Engineer for mobile analytics platforms and map analytics tools
-- **Financial Security Institute (FSA)** (2010.03 ~ 2011.06) (1 year 4 months)
-	- Security R&D for financial application security testing and vulnerability inspection tools
+- **SK Telecom** (2018.09 ~ 2025.10) (7 years 2 months) · ML/AI Engineer
+- **PearlAbyss** (2017.03 ~ 2018.09) (1 year 7 months) · DevOps Engineer
+- **SECUI** (2015.12 ~ 2017.03) (1 year 4 months) · SIEM Architecture
+- **AirPlug** (2011.06 ~ 2015.12) (4 years 7 months) · Startup
+- **Financial Security Institute (FSA)** (2010.03 ~ 2011.06) (1 year 4 months) · Threat Intelligence Analyzer
 - **Mcubeworks** (Alternative Military Service) (2007.01 ~ 2010.03) (3 years 3 months)
-	- Developed and operated real-time streaming and RTSP-based VoD servers
 
 ---
 

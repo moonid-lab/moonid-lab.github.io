@@ -35,18 +35,12 @@ redirect_from:
 
 ### 주요 경력
 
-- **SK Telecom** (2018.09 ~ 2025.10) (7년 2개월)
-  - Multimodal AI Agent, AI Agent Platform, VPS, RLS/HD Map, Tview 등 AI Agent·LLMOps·클라우드 플랫폼 설계/개발
-- **PearlAbyss** (2017.03 ~ 2018.09) (1년 7개월)
-  - DevOps Engineer, 검은사막 모바일 Azure Cloud Transformation 및 CI/CD·모니터링 체계 구축
-- **SECUI** (2015.12 ~ 2017.03) (1년 4개월)
-  - R&D Engineer (Security Intelligence), SIEM 및 EDR 빅데이터 플랫폼 개발
-- **AirPlug** (2011.06 ~ 2015.12) (4년 7개월)
-  - Big Data Platform Engineer, 모바일 빅데이터 플랫폼 및 Map Analytics 도구 설계/개발
-- **금융보안원 (FSA)** (2010.03 ~ 2011.06) (1년 4개월)
-  - 금융보안 취약점 연구개발, 보안 적합성 시험 및 취약점 점검 도구 개발
+- **SK Telecom** (2018.09 ~ 2025.10) (7년 2개월) · ML/AI Engineer
+- **PearlAbyss** (2017.03 ~ 2018.09) (1년 7개월) · DevOps Engineer
+- **SECUI** (2015.12 ~ 2017.03) (1년 4개월) · SIEM Architecture
+- **AirPlug** (2011.06 ~ 2015.12) (4년 7개월) · Startup
+- **금융보안원 (FSA)** (2010.03 ~ 2011.06) (1년 4개월) · Threat Intelligence Analyzer
 - **Mcubeworks** (전문연구요원) (2007.01 ~ 2010.03) (3년 3개월)
-  - RTS(Real-time Streaming Server) 개발/운영, RTSP 기반 VoD 스트리밍 서버 개발 및 성능 최적화
 
 ---
 
