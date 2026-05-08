@@ -19,7 +19,7 @@ redirect_from:
 ## 연구 분야
 
 - **AI Native** — Cloud Native(Kubernetes Landscape) 기반 기술을 바탕으로 LLMOps 플랫폼 구축/운영
-- **Agentic AI** — Swarm AI Agent 기술 기반으로 데이터 기반 예측/시뮬레이션 엔진 연구/개발
+- **Agentic AI** — [Swarm AI Agent](/projects/swarm-ai-dev-prediction/) 기술 기반으로 데이터 기반 예측/시뮬레이션 엔진 연구/개발
 - **Network Security** — 보안 지능로그(Threat Intelligence) 기반으로 AI SIEM(Security Event Information Management) 기술 연구/개발
 
 ---

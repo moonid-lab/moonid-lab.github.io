@@ -16,7 +16,7 @@ Our lab **researches and develops AI Agentic convergence technologies using AI-N
 ## Research Areas
 
 - **AI Native**: Building and operating LLMOps platforms based on Cloud Native technologies, including the Kubernetes Landscape
-- **Agentic AI**: Researching and developing data-driven prediction/simulation engines based on Swarm AI Agent technologies
+- **Agentic AI**: Researching and developing data-driven prediction/simulation engines based on [Swarm AI Agent](/projects/swarm-ai-dev-prediction/) technologies
 - **Network Security**: Researching and developing AI SIEM(Security Event Information Management) technologies based on security intelligence logs(Threat Intelligence)
 
 ---
