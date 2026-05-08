@@ -18,10 +18,9 @@ redirect_from:
 
 ## 연구 분야
 
-- **AI Agent Security** — 자율 AI 에이전트의 보안 프레임워크 및 접근 제어 연구
-- **LLMOps / RAG** — GraphRAG, Agentic Memory, MCP(Model Context Protocol) 기반 플랫폼
-- **Cloud Security & SecOps** — Kubernetes, 멀티클라우드 보안 아키텍처
-- **네트워크 보안** — IPS/FW 상관관계 분석, SIEM, 금융권 애플리케이션 보안
+- **AI Native** — Cloud Native(Kubernetes Landscape) 기반 기술을 바탕으로 LLMOps 플랫폼 구축/운영
+- **Agentic AI** — Swarm AI Agent 기술 기반으로 데이터 기반 예측/시뮬레이션 엔진 연구/개발
+- **Network Security** — 보안 지능로그(Threat Intelligence) 기반으로 AI SIEM(Security Event Information Management) 기술 연구/개발
 
 ---
 

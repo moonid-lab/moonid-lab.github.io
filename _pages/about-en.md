@@ -15,10 +15,9 @@ Our lab **researches and develops AI Agentic convergence technologies using AI-N
 
 ## Research Areas
 
-- **AI Agent Security**: Security frameworks and access control for autonomous AI agents
-- **LLMOps / RAG**: Platforms based on GraphRAG, Agentic Memory, and MCP (Model Context Protocol)
-- **Cloud Security & SecOps**: Kubernetes and multi-cloud security architecture
-- **Network Security**: IPS/FW correlation analysis, SIEM, and application security
+- **AI Native**: Building and operating LLMOps platforms based on Cloud Native technologies, including the Kubernetes Landscape
+- **Agentic AI**: Researching and developing data-driven prediction/simulation engines based on Swarm AI Agent technologies
+- **Network Security**: Researching and developing AI SIEM(Security Event Information Management) technologies based on security intelligence logs(Threat Intelligence)
 
 ---
 
