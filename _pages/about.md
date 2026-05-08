@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "MOONID LAB (AI 융합보안 연구실)"
+title: "MOONID-LAB"
 lang: ko
 translation_key: home
 author_profile: true
@@ -9,10 +9,10 @@ redirect_from:
   - /about.html
 ---
 
-## MOONID LAB (AI 융합보안 연구실)
+## MOONID-LAB
 
-호서대학교 MOONID LAB (AI 융합보안 연구실)에 오신 것을 환영합니다.
-본 연구실은 **AI Agent 보안**, **LLMOps**, **클라우드 보안/DevOps** 분야의 연구를 수행합니다.
+호서대학교 MOONID-LAB에 오신 것을 환영합니다.
+본 연구실은 **AI-Native 기반 기술을 활용하여 AI Agentic 융합기술을 연구/개발합니다.**
 
 ---
 
@@ -31,7 +31,7 @@ redirect_from:
 호서대학교 조교수 · AI/SecOps 연구자
 
 네트워크 보안 전공을 바탕으로 다양한 산업 분야에서 DevOps 엔지니어로서 Solution Architecture 역할을 수행했습니다.
-현재 호서대학교에서 AI 융합보안을 위한 기술을 연구/개발하고 있습니다.
+현재 호서대학교에서 AI-Native 기반 AI Agentic 융합기술을 연구/개발하고 있습니다.
 
 ### 주요 경력
 

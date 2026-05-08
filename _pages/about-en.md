@@ -1,15 +1,15 @@
 ---
 permalink: /en/
-title: "MOONID LAB (AI Convergence Security Lab)"
+title: "MOONID-LAB"
 lang: en
 translation_key: home
 author_profile: true
 ---
 
-## MOONID LAB (AI Convergence Security Lab)
+## MOONID-LAB
 
-Welcome to MOONID LAB at Hoseo University.
-Our lab focuses on **AI Agent Security**, **LLMOps**, and **Cloud Security/DevOps**.
+Welcome to MOONID-LAB at Hoseo University.
+Our lab **researches and develops AI Agentic convergence technologies using AI-Native foundational technologies.**
 
 ---
 
@@ -28,8 +28,8 @@ Our lab focuses on **AI Agent Security**, **LLMOps**, and **Cloud Security/DevOp
 Assistant Professor at Hoseo University · AI/SecOps Researcher
 
 With a background in network security, he has worked across multiple industries as a DevOps engineer
-and solution architect. He is currently researching and developing technologies for AI convergence
-security at Hoseo University.
+and solution architect. He is currently researching and developing AI-Native based AI Agentic convergence technologies
+at Hoseo University.
 
 ### Career Highlights
 

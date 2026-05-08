@@ -1,5 +1,5 @@
 ---
-title: "AI Agent 보안 연구실 MOONID LAB 개설"
+title: "MOONID-LAB 개설"
 lang: ko
 date: 2026-02-01
 permalink: /posts/2026/02/moonid-lab-launch/
@@ -9,7 +9,7 @@ tags:
   - 연구실 소개
 ---
 
-호서대학교 **MOONID LAB (AI 융합보안 연구실)**이 2026년 2월 문을 열었습니다.
+호서대학교 **MOONID-LAB**이 2026년 2월 문을 열었습니다.
 
 ## 연구실 소개
 
