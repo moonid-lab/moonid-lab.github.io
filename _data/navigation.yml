@@ -7,6 +7,9 @@ main:
   - title: "프로젝트"
     url: /projects/
 
+  - title: "멤버"
+    url: /members/
+
   - title: "발표"
     url: /talks/
 
@@ -26,6 +29,9 @@ main_ko:
   - title: "프로젝트"
     url: /projects/
 
+  - title: "멤버"
+    url: /members/
+
   - title: "발표"
     url: /talks/
 
@@ -44,6 +50,9 @@ main_en:
 
   - title: "Projects"
     url: /en/projects/
+
+  - title: "Members"
+    url: /en/members/
 
   - title: "Talks"
     url: /en/talks/

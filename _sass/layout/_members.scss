@@ -1,0 +1,52 @@
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.75rem;
+  background: var(--global-bg-color);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.member-card__photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid var(--global-border-color);
+}
+
+.member-card__body {
+  width: 100%;
+}
+
+.member-card__name {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
+}
+
+.member-card__section {
+  margin-top: 0.75rem;
+}
+
+.member-card__list {
+  display: inline-block;
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+  text-align: left;
+}
+
+.member-card__link {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+}

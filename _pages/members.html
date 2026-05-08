@@ -1,0 +1,57 @@
+---
+layout: archive
+title: "멤버"
+permalink: /members/
+lang: ko
+translation_key: members
+author_profile: true
+---
+
+{% include base_path %}
+
+MOONID-LAB 연구실 멤버를 소개합니다.
+
+{% assign members = site.data.members | default: empty %}
+
+{% if members.size > 0 %}
+<div class="member-grid">
+  {% for member in members %}
+  <article class="member-card">
+    {% if member.photo %}
+      {% assign photo_src = member.photo %}
+      {% if photo_src contains '://' %}
+        <img class="member-card__photo" src="{{ photo_src }}" alt="{{ member.name }} 사진">
+      {% elsif photo_src contains '/images/' %}
+        <img class="member-card__photo" src="{{ photo_src | prepend: base_path }}" alt="{{ member.name }} 사진">
+      {% else %}
+        <img class="member-card__photo" src="{{ photo_src | prepend: '/images/members/' | prepend: base_path }}" alt="{{ member.name }} 사진">
+      {% endif %}
+    {% endif %}
+
+    <div class="member-card__body">
+      <h2 class="member-card__name">{{ member.name }}</h2>
+
+      {% if member.research %}
+      <div class="member-card__section">
+        <strong>연구분야</strong>
+        <ul class="member-card__list">
+          {% for area in member.research %}
+          <li>{{ area }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if member.email %}<p class="member-card__link"><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
+      {% if member.homepage %}<p class="member-card__link"><a href="{{ member.homepage }}">Homepage</a></p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+
+연구실 멤버 소개가 준비 중입니다.
+
+학생 프로필은 `_data/members.yml`에 추가하고, 사진 파일은 `images/members/`에 업로드하면 됩니다.
+
+{% endif %}

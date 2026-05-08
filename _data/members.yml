@@ -1,0 +1,13 @@
+# MOONID-LAB member profiles
+#
+# Add student profiles below and upload photos to images/members/.
+# Fields:
+# - name: Student name
+# - photo: Photo filename in images/members/ (optional; leave blank until uploaded)
+# - research: Research areas (optional)
+# - email: Email address (optional)
+# - homepage: Homepage URL (optional)
+
+- name: "김태호 (Taeho Kim)"
+  photo: ""
+  email: "tahoe@gmail.com"
