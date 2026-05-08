@@ -26,6 +26,8 @@ MOONID-LAB 연구실 멤버를 소개합니다.
       {% else %}
         <img class="member-card__photo" src="{{ photo_src | prepend: '/images/members/' | prepend: base_path }}" alt="{{ member.name }} 사진">
       {% endif %}
+    {% else %}
+      <div class="member-card__photo member-card__photo--placeholder" aria-hidden="true">{{ member.name | slice: 0, 1 }}</div>
     {% endif %}
 
     <div class="member-card__body">
