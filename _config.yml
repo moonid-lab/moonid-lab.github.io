@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "MOONID-LAB"
 title_separator          : "-"
 name                     : &name "문 형 권"
-description              : &description "MOONID-LAB - AI-Native 기반 AI Agentic 융합기술 연구/개발 | 호서대학교"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "MOONID-LAB - AI-Native 기반 Agentic AI 융합기술 연구/개발 | 호서대학교"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://moonid-lab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile_natural.png"
   name             : "문형권 (Daniel Moon)"
   pronouns         : # example: "she/her"
-  bio              : "조교수 @ 호서대학교 | AI Agent 보안 · LLMOps · Cloud SecOps 연구"
+  bio              : "조교수 @ 호서대학교 | Agentic AI / LLMOps / Treat Intelligence "
   location         : "호서대학교 아산캠퍼스 제2공대 410호"
   employer         : "호서대학교 (Hoseo University)"
   uri              : # URL
