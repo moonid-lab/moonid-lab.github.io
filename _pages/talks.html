@@ -19,6 +19,8 @@ author_profile: true
   {% assign lang_talks = site.talks %}
 {% endif %}
 
+<div class="grid__wrapper">
 {% for post in lang_talks reversed %}
-  {% include archive-single-talk.html %}
+  {% include archive-single-talk.html type="grid" %}
 {% endfor %}
+</div>
