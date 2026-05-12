@@ -23,7 +23,7 @@ repository               : "moonid-lab/moonid-lab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_natural.png"
   name             : "문형권 (Daniel Moon)"
   pronouns         : # example: "she/her"
   bio              : "조교수 @ 호서대학교 | AI Agent 보안 · LLMOps · Cloud SecOps 연구"
