@@ -28,27 +28,6 @@
     - "LLMOps"
   email: "20221086@vision.hoseo.edu"
 
-- name: "이서연 (Seoyeon Lee)"
-  photo: ""
-  research:
-    - "Agentic RAG"
-    - "AI-Native Platform"
-  email: "seoyeon@example.com"
-
-- name: "박민준 (Minjun Park)"
-  photo: ""
-  research:
-    - "Cloud SecOps"
-    - "MCP Security"
-  email: "minjun@example.com"
-
-- name: "최지우 (Jiwoo Choi)"
-  photo: ""
-  research:
-    - "Multi-Agent Systems"
-    - "Knowledge Graph"
-  email: "jiwoo@example.com"
-
 - name: "주현민"
   photo: "jhm.jpg"
   research:
