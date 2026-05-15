@@ -8,12 +8,25 @@
 # - email: Email address (optional)
 # - homepage: Homepage URL (optional)
 
-- name: "김태호 (Taeho Kim)"
-  photo: ""
+- name: "김태호"
+  photo: "kth.jpg"
   research:
-    - "AI Agent Security"
+    - "Agentic RAG"
+    - "Server Deployment"
+  email: "20230910@vision.hoseo.edu"
+
+- name: "윤경한"
+  photo: "ykh.jpg"
+  research:
+    - "AI Agent & Automation Systems"
+    - "Cyber Security & Malware Analysis"
+  email: "kyunghan2ge@gmail.com"
+
+- name: "최혜원"
+  photo: "chw.jpg"
+  research:
     - "LLMOps"
-  email: "tahoe@gmail.com"
+  email: "20221086@vision.hoseo.edu"
 
 - name: "이서연 (Seoyeon Lee)"
   photo: ""
